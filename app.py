@@ -8,7 +8,7 @@ load_dotenv()
 
 client=genai.Client(
 
-api_key=st.secrets("GEMINI_API_KEY")
+api_key=st.secrets["GEMINI_API_KEY"]
 )
 
 
